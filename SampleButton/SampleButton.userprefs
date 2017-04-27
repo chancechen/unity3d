@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ShopScrollList.cs">
+    <Files>
+      <File FileName="Assets\Scripts\SimpleObjectPool.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SampleButton.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ShopScrollList.cs" Line="18" Column="37" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="E:\BaiduYunDownload\my document\study\2017\unity3d\SampleButton\Assets\Scripts\ShopScrollList.cs" line="33" column="19" />
+      <Breakpoint file="E:\BaiduYunDownload\my document\study\2017\unity3d\SampleButton\Assets\Scripts\ShopScrollList.cs" line="28" column="15" />
+      <Breakpoint file="E:\BaiduYunDownload\my document\study\2017\unity3d\SampleButton\Assets\Scripts\SampleButton.cs" line="18" column="21" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,4 +1,3 @@
-SampleButton/obj/
-SampleButton/Library/
-SampleButton/Temp/
-*.meta
+/*
+!/SampleButton/ProjectSettings/
+!/SampleButton/Assets/

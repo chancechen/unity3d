@@ -56,6 +56,7 @@ public class ShopScrollList : MonoBehaviour
 
             newButton.transform.localScale = Vector3.one;
             newButton.transform.localPosition = Vector3.zero;
+            newButton.transform.localRotation = Quaternion.AngleAxis(0f, new Vector3(0f, 15f, 0f));
 
             SampleButton sampleButton = newButton.GetComponent<SampleButton>();
             sampleButton.Setup(item, this);

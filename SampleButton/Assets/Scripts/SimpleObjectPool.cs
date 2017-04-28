@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 
+// zhushi!!!!
 // A very simple object pooling class
 public class SimpleObjectPool : MonoBehaviour
 {

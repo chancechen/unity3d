@@ -75,10 +75,10 @@ public class ShopScrollList : MonoBehaviour
 
             RefreshDisplay();
             otherShop.RefreshDisplay();
-            Debug.Log("enough gold");
+            //Debug.Log("enough gold");
 
         }
-        Debug.Log("attempted");
+        //Debug.Log("attempted");
     }
 
     void AddItem(Item itemToAdd, ShopScrollList shopList)

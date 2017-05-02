@@ -19,6 +19,8 @@ public class ServerManager : MonoBehaviour
     public Transform contentPanel;
     public Text showServer;
 
+    public ServerInfo currentServer= null;
+
     private Dictionary<string, ServerInfo> DServers = new Dictionary<string, ServerInfo>();
 
     void Start() {
@@ -55,6 +57,12 @@ public class ServerManager : MonoBehaviour
 
             ServerItem sampleButton = newButton.GetComponent<ServerItem>();
             sampleButton.Setup(item, this);
+
+            if (currentServer.name == "")
+            {
+                currentServer = item;
+                showServer.text = item.name;
+            }
         }
     }
 

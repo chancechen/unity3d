@@ -836,6 +836,7 @@ GameObject:
   - component: {fileID: 987105712}
   - component: {fileID: 987105714}
   - component: {fileID: 987105713}
+  - component: {fileID: 987105715}
   m_Layer: 5
   m_Name: ServerName
   m_TagString: Untagged
@@ -900,6 +901,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 987105711}
+--- !u!114 &987105715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 987105711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 0.5, y: -0.5}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1180967599
 GameObject:
   m_ObjectHideFlags: 0
@@ -1452,7 +1467,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u70B9\u51FB\u5207\u6362\u670D\u52A1\u5668"
+  m_Text: "\u70B9\u51FB\u8DF3\u8F6C\u5230\u8BE5\u670D\u52A1\u5668"
 --- !u!222 &1919542273
 CanvasRenderer:
   m_ObjectHideFlags: 0

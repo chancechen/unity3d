@@ -1,0 +1,19 @@
+
+Unity3D小结
+
+一，对象的查找方式 transform.Find()/GameObject.Find()
+	1, transform.Find() //Finds a child by name and returns it. eg. transform.Find("Gun").gameObject;
+	2, GameObject.Find() // Finds a GameObject by name and returns it. eg. GameObject.Find("Monster/Arm/Hand")
+	
+二，颜色的处理 uint-> Color
+	1,uint-> Color 通过Color32转化来处理（或则有更好的处理方式）
+	//static Color ConvertHexToColor( uint c)
+	//{  
+	//    Color32 color;
+	//    color.r = (byte)(c >> 16 & 0xff);
+	//    color.g = (byte)(c >> 8 & 0xff);
+	//    color.b = (byte)(c >> 0 & 0xff);
+	//    color.a = 0xff;
+	//
+	//    return color;
+	//}

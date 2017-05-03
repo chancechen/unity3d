@@ -574,14 +574,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 0
+    m_Left: 10
     m_Right: 0
-    m_Top: 0
+    m_Top: 10
     m_Bottom: 0
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 185, y: 75}
+  m_CellSize: {x: 240, y: 75}
   m_Spacing: {x: 5, y: 5}
   m_Constraint: 0
   m_ConstraintCount: 2
@@ -1595,39 +1595,95 @@ MonoBehaviour:
   - name: "\u5156\u5DDE"
     ip: 192.168.0.1
     port: 30600
+    status: 11141120
   - name: "\u8D35\u5DDE"
     ip: 192.168.0.1
     port: 30600
+    status: 11141120
   - name: "\u897F\u6E2F"
     ip: 192.168.0.1
     port: 30600
+    status: 11141120
   - name: "\u65E5\u843D\u897F\u5C71"
     ip: 192.168.0.1
     port: 30600
+    status: 11184640
   - name: "\u540E\u8D77\u4E4B\u79C0"
     ip: 192.168.0.1
     port: 30600
+    status: 11184640
   - name: "\u6C38\u65E0\u6B62\u5883"
     ip: 192.168.0.1
     port: 30600
+    status: 11184640
   - name: "\u56FE\u7A77\u5315\u89C1"
     ip: 192.168.0.1
     port: 30600
+    status: 43520
   - name: "\u5185\u8499\u53E4"
     ip: 192.168.0.1
     port: 30600
+    status: 43520
   - name: "\u4E09\u89D2\u6D32"
     ip: 192.168.0.1
     port: 30600
+    status: 43520
   - name: "\u9EC4\u6CB3\u6D41\u57DF"
     ip: 192.168.0.1
     port: 30600
-  - name: "\u7F8C\u65CF\u81EA\u6CBB"
+    status: 43520
+  - name: "\u7F8C\u65CF\u81EA\u6CBB1"
     ip: 192.168.0.1
     port: 30600
+    status: 43520
+  - name: "\u7F8C\u65CF\u81EA\u6CBB2"
+    ip: 192.168.0.1
+    port: 30600
+    status: 43520
+  - name: "\u7F8C\u65CF\u81EA\u6CBB3"
+    ip: 192.168.0.1
+    port: 30600
+    status: 43520
+  - name: "\u7F8C\u65CF\u81EA\u6CBB4"
+    ip: 192.168.0.1
+    port: 30600
+    status: 43520
+  - name: "\u7F8C\u65CF\u81EA\u6CBB5"
+    ip: 192.168.0.1
+    port: 30600
+    status: 43520
+  - name: "\u7F8C\u65CF\u81EA\u6CBB6"
+    ip: 192.168.0.1
+    port: 30600
+    status: 43520
+  - name: "\u7F8C\u65CF\u81EA\u6CBB7"
+    ip: 192.168.0.1
+    port: 30600
+    status: 43520
+  - name: "\u7F8C\u65CF\u81EA\u6CBB8"
+    ip: 192.168.0.1
+    port: 30600
+    status: 43520
+  - name: "\u7F8C\u65CF\u81EA\u6CBB9"
+    ip: 192.168.0.1
+    port: 30600
+    status: 43520
+  - name: "\u7F8C\u65CF\u81EA\u6CBB10"
+    ip: 192.168.0.1
+    port: 30600
+    status: 43520
+  - name: "\u7F8C\u65CF\u81EA\u6CBB11"
+    ip: 192.168.0.1
+    port: 30600
+    status: 43520
   buttonObjectPool: {fileID: 2048795821}
   contentPanel: {fileID: 752654617}
   showServer: {fileID: 987105713}
+  currentServer:
+    name: 
+    ip: 
+    port: 0
+    status: 0
 --- !u!4 &2048795820
 Transform:
   m_ObjectHideFlags: 0

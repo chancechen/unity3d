@@ -20,6 +20,8 @@ public class ServerInfo
     public sstatus status;
 }
 
+
+
 public class ServerManager : MonoBehaviour
 {
     public Button enterButton;
@@ -30,7 +32,12 @@ public class ServerManager : MonoBehaviour
 
     public ServerInfo currentServer= null;
 
-    private Dictionary<string, ServerInfo> DServers = new Dictionary<string, ServerInfo>();
+    private static Dictionary<sstatus, string> StatusNames =new Dictionary<sstatus, string>{
+        { sstatus.Busy, "繁忙" },
+        { sstatus.General, "一般" },
+        { sstatus.Free, "空闲" } };
+
+    private static Dictionary<string, ServerInfo> DServers = new Dictionary<string, ServerInfo>();
 
     void Start() {
         
@@ -48,7 +55,7 @@ public class ServerManager : MonoBehaviour
         }
     }
 
-    static Color ConvertHexToColor( uint c)
+    public static Color ConvertHexToColor( uint c)
     {  
         Color32 color;
         color.r = (byte)(c >> 16 & 0xff);
@@ -81,7 +88,7 @@ public class ServerManager : MonoBehaviour
             if (currentServer.name == "")
             {
                 currentServer = item;
-                showServer.text = item.name;
+                showServer.text = item.name;                
             }
             
             var st= sampleButton.transform.Find("Status").gameObject;
@@ -90,6 +97,16 @@ public class ServerManager : MonoBehaviour
                 st.GetComponent<Image>().color = ConvertHexToColor((uint)item.status);
             }            
         }
+    }
+
+    public ServerInfo GetServer( string name )
+    {
+        return DServers[name];
+    }
+
+    public string GetStateDescName(sstatus st)
+    {
+        return StatusNames[st];
     }
 
     private void OnEnter()  {

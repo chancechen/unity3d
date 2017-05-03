@@ -726,7 +726,7 @@ GameObject:
   - component: {fileID: 918475429}
   - component: {fileID: 918475428}
   m_Layer: 5
-  m_Name: Button
+  m_Name: ChooseButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -911,7 +911,7 @@ GameObject:
   - component: {fileID: 1180967602}
   - component: {fileID: 1180967601}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1417,8 +1417,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 15}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0, y: 31.049995}
+  m_SizeDelta: {x: 286, y: 24.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1919542272
 MonoBehaviour:

@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="ArgsExample.cs" />
     <Compile Include="ArrayExgample.cs" />
+    <Compile Include="ClassVersion.cs" />
+    <Compile Include="ForeachClass.cs" />
     <Compile Include="PropertyExample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

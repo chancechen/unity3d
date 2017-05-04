@@ -18,6 +18,10 @@ namespace CsharpExample
             PropertyExample.GetInstance().Age = 100;
             PropertyExample.GetInstance().Name = "Chen Chaozhong";
             PropertyExample.GetInstance().Show();
+
+            ClassVersion.GetInstance().Show();
+
+            ForeachClass.GetInstance().Show();
         }
     }
 }

@@ -35,7 +35,7 @@ public class ServerItem : MonoBehaviour {
         var server= ServerMgr.GetServer( current.text );
         if (server != null)
         {
-            desc = string.Format("服务器<<B>{0}</B>>，{1}", ServerMgr.GetStateDescName(server.status), tipDes);
+            desc = string.Format("服务器<B>{0}</B>，{1}", ServerMgr.GetStateDescName(server.status), tipDes);
         }
 
         tipInfo.text = desc;

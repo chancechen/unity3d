@@ -10,6 +10,14 @@ namespace CsharpExample
     {
         static void Main(string[] args)
         {
+            ArgsExample.ForeachShowArgs(args);
+            ArgsExample.ForShowArgs(args);
+
+            ArrayExgample.ForeachShowArray2();
+
+            PropertyExample.GetInstance().Age = 100;
+            PropertyExample.GetInstance().Name = "Chen Chaozhong";
+            PropertyExample.GetInstance().Show();
         }
     }
 }

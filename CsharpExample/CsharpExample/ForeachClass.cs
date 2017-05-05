@@ -80,6 +80,7 @@ namespace CsharpExample
             {
                 Console.WriteLine(item );
             }
+            Console.WriteLine();
         }
     }
 }

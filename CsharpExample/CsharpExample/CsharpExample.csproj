@@ -47,9 +47,12 @@
     <Compile Include="ArrayExgample.cs" />
     <Compile Include="ClassVersion.cs" />
     <Compile Include="ForeachClass.cs" />
+    <Compile Include="Indexer.cs" />
+    <Compile Include="Instance.cs" />
     <Compile Include="PropertyExample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StrcutExample.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

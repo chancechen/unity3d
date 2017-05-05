@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace CsharpExample
 {
-    class ClassVersion
+    class ClassVersion: Instance<ClassVersion>
     {
         public virtual string Meth1()
         {
@@ -26,18 +26,11 @@ namespace CsharpExample
             return "MyBase-Meth3";
         }
 
-
-        private static Version1 instance;
-
-        public static Version1 GetInstance()
-        {
-            return instance == null ? instance = new Version1() : instance;
-        }
-
-        public void Show()
+        
+        override public void Show()
         {
 
-            ClassVersion child = (ClassVersion)instance;
+            ClassVersion child = (ClassVersion)GetInstance();
 
             Console.WriteLine(child.Meth1());
             Console.WriteLine(child.Meth2());

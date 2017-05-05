@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CsharpExample
 {
-    class PropertyExample
+    class PropertyExample : Instance<PropertyExample>
     {
 
         private string name = "N/A";
@@ -44,20 +44,9 @@ namespace CsharpExample
             return string.Format("Name= {0},Age={1}", name, age);
         }
 
-        public void Show()
+        override public void Show()
         {
             Console.WriteLine(this.ToString());
-        }
-
-        private static PropertyExample instance;
-
-        public static PropertyExample  GetInstance()
-        {
-            if (instance == null)
-            {
-                instance = new PropertyExample();
-            }
-            return instance;
         }
     }
 }

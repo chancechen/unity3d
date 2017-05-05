@@ -22,6 +22,10 @@ namespace CsharpExample
             ClassVersion.GetInstance().Show();
 
             ForeachClass.GetInstance().Show();
+
+            StrcutExample.GetInstance().Show();
+
+            Indexer.GetInstance().Show();
         }
     }
 }

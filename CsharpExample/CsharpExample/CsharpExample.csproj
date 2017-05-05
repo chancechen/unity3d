@@ -48,6 +48,7 @@
     <Compile Include="ClassVersion.cs" />
     <Compile Include="ForeachClass.cs" />
     <Compile Include="Indexer.cs" />
+    <Compile Include="IndexerProperty.cs" />
     <Compile Include="Instance.cs" />
     <Compile Include="PropertyExample.cs" />
     <Compile Include="Program.cs" />

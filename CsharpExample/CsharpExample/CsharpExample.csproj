@@ -46,13 +46,16 @@
     <Compile Include="ArgsExample.cs" />
     <Compile Include="ArrayExgample.cs" />
     <Compile Include="ClassVersion.cs" />
+    <Compile Include="DelegateExample.cs" />
     <Compile Include="ForeachClass.cs" />
     <Compile Include="Indexer.cs" />
     <Compile Include="IndexerProperty.cs" />
     <Compile Include="Instance.cs" />
+    <Compile Include="OperatorExample.cs" />
     <Compile Include="PropertyExample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RomanNumerial.cs" />
     <Compile Include="StrcutExample.cs" />
   </ItemGroup>
   <ItemGroup>

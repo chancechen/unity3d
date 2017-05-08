@@ -8,6 +8,7 @@ namespace CsharpExample
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
             ArgsExample.ForeachShowArgs(args);
@@ -17,15 +18,16 @@ namespace CsharpExample
 
             PropertyExample.GetInstance().Age = 100;
             PropertyExample.GetInstance().Name = "Chen Chaozhong";
+
             PropertyExample.GetInstance().Show();
-
             ClassVersion.GetInstance().Show();
-
             ForeachClass.GetInstance().Show();
-
             StrcutExample.GetInstance().Show();
-
             Indexer.GetInstance().Show();
+            IndexerProperty.GetInstance().Show();
+            RomanNumerial.GetInstance().Show();
+            OperatorExample.GetInstance().Show();
+            DelegateExample.GetInstance().Show();
         }
     }
 }

@@ -172,7 +172,33 @@ namespace CsharpExample
             }
         }
     }
-    class IndexerProperty
+    class IndexerProperty:Instance<IndexerProperty>
     {
+
+        public override void Show()
+        {
+            Document d = new Document("peter piper picked a peck of pickled peppers. How many pickled peppers did peter piper pick?");
+
+            Console.WriteLine(d.Text);
+
+            Console.WriteLine(" eg.  [Change word \"peter\" to \"penelope\"]");            
+            for (int i = 0; i < d.Words.Count; ++i)
+            {
+                if (d.Words[i] == "peter")
+                    d.Words[i] = "penelope";
+            }
+
+            Console.WriteLine(d.Text);
+
+            Console.WriteLine("eg. [Change character \"p\" to \"P\"]");
+            
+            for (int i = 0; i < d.Characters.Count; ++i)
+            {
+                if (d.Characters[i] == 'p')
+                    d.Characters[i] = 'P';
+            }
+
+            Console.WriteLine(d.Text);
+        }
     }
 }

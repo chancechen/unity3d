@@ -18,8 +18,8 @@ namespace CsharpExample
 
             PropertyExample.GetInstance().Age = 100;
             PropertyExample.GetInstance().Name = "Chen Chaozhong";
-
             PropertyExample.GetInstance().Show();
+
             ClassVersion.GetInstance().Show();
             ForeachClass.GetInstance().Show();
             StrcutExample.GetInstance().Show();
@@ -28,6 +28,9 @@ namespace CsharpExample
             RomanNumerial.GetInstance().Show();
             OperatorExample.GetInstance().Show();
             DelegateExample.GetInstance().Show();
+            EventExample.GetInstance().Show();
+            InterfaceExample.GetInstance().Show();
+            ConditionalExample.GetInstance().Show();
         }
     }
 }
